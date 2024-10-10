@@ -1,0 +1,23 @@
+Column names for the csv files containing the .pyb prediction modules.
+
+0 A - Timestamp_tag # time stamp with decimal point replaced with underscore to create a unique 	file name for the .pyb prediction module.
+1 B - Correct -1s predicted in validation data
+2 C - Correct 1s predicted in validation data
+3 D - Percent correct -1s predicted in validation data
+E - Percent correct 1 predicted in validation data
+F - Training -1s, a constant
+G - Validation -1s predicted
+H - Training 1s, a constant
+I - Validation 1s predicted
+J - Ticker slug
+K - Tree count
+L - Maximum tree depth. These are binary trees. Two to this power is total branches.
+M - Buy or sell slug
+13 N - tak - Number of features taken in from the far right of feature set, starting with the
+	rightmost feature, which is the most important.
+14 O - Randomly selected learing rate.
+15 P - Algorithm used in 	
+	AdaBoostClassifier(DecisionTreeClassifier(max_depth=depth),algorithm=algo,n_estimators=tris)
+16 Q - File name of prediction module.
+R to end - column order of feature set		
+	
